@@ -1,0 +1,19 @@
+.courses-section {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .courses-section h2 {
+    color: #7a1fa2;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .courses-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
