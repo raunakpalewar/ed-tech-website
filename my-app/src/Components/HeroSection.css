@@ -1,25 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.hero{
+  margin-left: 70px;
+}
+
+
+.about-section {
+  background-color: white;
+  width:  355px;
+  border-radius: 16px ;
+  border: 1px solid #FFA50B  ;
+  margin-top: 60px;
+  
+
+}
+
+.about-section h2 {
+  color:#434347;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  align-items: center;
+  margin:0;
+  padding: 5px 9px 5px 9px;
+}
+
+
+
 .hero-section {
     background-color: white;
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+    width: 579px;
+    height:  458px;
+    gap: 24px;
+
+
   }
   
   .hero-section h1 {
-    color: #7a1fa2;
+   
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:#595961;
+    margin: 0;
+
   }
+
+.hero-section h1 strong{
+  color: #992E9D;
+}
   
   .hero-section p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:#434347;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    
   }
-  
-  .hero-section .buttons {
+
+  .hero-section-div1{
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+  }
+  .hero-section-div1 span{
+    color:#BB5302;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+
+
+    background-color: #FFF4C5    ;
+    padding: 8px 10px 8px 10px;
+    border-radius: 20px ;
+
   }
   
+.hero-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 20px;
+  }

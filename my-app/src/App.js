@@ -1,16 +1,15 @@
 import React from 'react';
 import NavbarSection from './Components/NavbarSection';
 import HeroSection from './Components/HeroSection';
-import AboutSection from './Components/AboutSection';
 import CoursesSection from './Components/CoursesSection';
-import './styles.css';
+import BannerSection from './Components/BannerSection'
 
 function App() {
   return (
     <div className="App">
       <NavbarSection />
       <HeroSection />
-      <AboutSection />
+      <BannerSection />
       <CoursesSection />
     </div>
   );
