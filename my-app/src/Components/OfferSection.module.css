@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.offerSection{
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+
+}
+.div1{
+    width: 50%;
+    margin: auto;
+}
+.div1 h1{
+    font-family: 'Poppins';
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color:#686972;
+    margin: 0;
+    padding: 0;
+
+}
+.div1 h1 strong{
+    background: linear-gradient(to right, #B73BBE, #992E9D);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.div2{
+  background: linear-gradient(to bottom ,#9849FF,#841EE3); /* Adjust color to match exact hue */
+  border-radius: 25px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  position: relative; /* Add this */
+  width: 400px;
+  margin: auto;
+}
+.div2 h3{
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+.div2 p{
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color:#FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+.div2 h4{
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+
+
+.progress_bar {
+  height: 7px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: relative; /* Add this */
+}
+
+.progress {
+  height: 100%;
+  width: 50%; /* Adjust progress as needed */
+  background-color: #FFC41B ;
+  border-radius: 5px;
+}
+
+/* Add the circular indicator */
+.progress::after {
+  content: '';
+  position: absolute;
+  top: -3px; /* Adjust position */
+  left: 50%; /* Position at the middle of the progress */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 10px;
+  height: 10px;
+  background-color: #FFC41B; /* Same color as progress */
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.main_div1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+.div3{
+
+  padding: 13px;
+  border-radius: 20px ;
+  border: 1px solid #F9EBFC;
+  background: linear-gradient(to bottom ,#FFFFFF,#FCF5FE,#F9EBFC);
+  width: 350px;
+}
+.div3 h3{
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color:#7F2781;
+
+}
+.div3_sub_span1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E5E5E8;
+  border-radius: 14px  ;
+  gap: 10px;
+}
+.div3_sub_span1 h1{
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  background: linear-gradient(to right, #FFA50B  , #E27900);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+  margin: 0;
+
+
+}
+.div3_sub_span1 p{
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+
+.hexaSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.hexagone {
+  width: 92px;
+  height: 40px;
+  padding: 8px 24px;
+  color: #FCF5FE;
+  background-color: #992E9D;
+  clip-path: polygon(
+      25% 0%, /* Top left point */
+      75% 0%, /* Top right point */
+      90% 50%, /* Right middle point */
+      75% 100%, /* Bottom right point */
+      25% 100%, /* Bottom left point */
+      45% 50% /* Left middle point */
+  );
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hexagone::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -24px; /* Adjust to extend beyond the hexagon */
+  width: 48px; /* Adjust to span the gap between hexagons */
+  height: 2px; /* Thickness of the connecting line */
+  background-color: #992E9D;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.hexagone:last-child::after {
+  display: none; /* Remove the line for the last hexagon */
+}
+
+hr{
+  rotate: 90deg;
+}
