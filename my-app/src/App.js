@@ -4,6 +4,10 @@ import HeroSection from './Components/HeroSection';
 import CoursesSection from './Components/CoursesSection';
 import BannerSection from './Components/BannerSection'
 import OfferSection from './Components/OfferSection';
+import CompanySection from './Components/Companies';
+import CertificateSection from './Components/CertificateSection';
+// import InterhshipSection from './Components/InternshipSection';
+
 
 function App() {
   return (
@@ -13,6 +17,9 @@ function App() {
       <BannerSection />
       <CoursesSection />
       <OfferSection />
+      <CompanySection />
+      <CertificateSection />
+      {/* <InterhshipSection /> */}
     </div>
   );
 }

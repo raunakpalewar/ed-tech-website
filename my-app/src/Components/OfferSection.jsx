@@ -20,12 +20,13 @@ const OfferSection = () =>{
             <span>
                 <h2>How does it work?</h2>
             </span>
-            <div>
+            <div className={styles.steps}>
                 <span className={styles.hexaSection}>
                     <div className={styles.hexagone}><p>Step 1</p></div>
-                    <hr></hr>
-                    <div className={styles.hexagone}><p>Step 1</p></div>
-                    <div className={styles.hexagone}><p>Step 1</p></div>
+                    <span class={styles.divider}></span>
+                    <div className={styles.hexagone}><p>Step 2</p></div>
+                    <span class={styles.divider}></span>
+                    <div className={styles.hexagone}><p>Step 3</p></div>
                 </span>
                 <span className={styles.main_div1}>
                     <div className={styles.div3}>

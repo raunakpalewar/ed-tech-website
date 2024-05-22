@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+
+.company_section{
+    background-color: #FFFCEA;
+    margin: 60px 0 60px 0;
+}
+.company_section h1{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #374957;
+    padding: 0;
+    margin: 0;
+
+}
+h1 strong{
+    background: linear-gradient(to right, #B73BBE, #EBCB2E  );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.company_names{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+.company_names span{
+    padding: 10px 60px 10px 60px;
+    border-radius: 24px;
+    
+    background-color: white;
+    color:#374957;
+}
+.company_names span h2{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+}

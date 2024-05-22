@@ -1,0 +1,107 @@
+.certificate_section {
+    margin: 30px 90px;
+    background-color: #FFFFFF;
+}
+
+.certificate_section h1 {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    color: #686972;
+}
+
+.certificate_section h1 strong {
+    color: #992E9D;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: stretch; /* Ensure spans stretch to the same height */
+}
+
+.span1, .span2 {
+    flex: 1; /* Allow spans to grow and shrink equally */
+    display: flex;
+    flex-direction: column; /* Ensure children are stacked vertically */
+    justify-content: space-between;
+}
+
+.span1 {
+    background-color: #F9EBFC;
+    padding: 40px;
+    border-radius: 32px;
+    border: 1px solid #F9EBFC;
+}
+
+.span1 h2 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    color: #450D45;
+    padding: 0;
+    margin: 0;
+}
+
+.span1 img {
+    width: 100%; /* Adjust image to take up available width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.subdiv {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.subdiv span {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    color: #992E9D;
+    border-radius: 35px;
+    border: 1px solid #F4D6F8;
+    padding: 10px 16px;
+}
+
+.span2 {
+    background-color: #FFF4C5;
+    padding: 40px; /* Adjusted to match .span1 */
+    border-radius: 32px; /* Adjusted to match .span1 */
+    border: 1px solid #FFF4C5;
+}
+
+.span2 h2 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    color: #481900;
+    padding: 0;
+    margin: 0;
+}
+
+.span2 p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.span2 img {
+    width: 100%; /* Adjust image to take up available width */
+    height: auto; /* Maintain aspect ratio */
+    align-self: center; /* Center the image */
+}
