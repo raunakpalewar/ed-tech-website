@@ -206,12 +206,63 @@
 
   margin: 60px 120px 60px 120px ;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 .steps{
   flex-direction: row;
+  margin: auto;
 }
 .divider{
   rotate: 90deg;
 }
 
+} */
+
+
+/* Your existing CSS */
+
+/* Add this for responsiveness */
+@media (max-width: 768px) {
+  .div2{
+    margin: 0 20px 0 20px ;
+    width: auto;
+  }
+
+  .main_div1 {
+    flex-direction: column; /* Change the direction to stack divs vertically */
+    gap: 20px; /* Add space between stacked divs */
+    margin-top: 20px; /* Adjust margin */
+    padding: 0 10px; /* Adjust padding */
+  }
+
+  .hexaSection {
+    margin: 20px auto; /* Center the hexagons */
+  }
+  .hexagone{
+    transform: rotate(90deg);
+    width: 52px;
+    height: 40px;
+  }
+  .hexagone p{
+    transform: rotate(270deg);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+  }
+  .steps {
+    flex-direction: row;
+    margin:20px auto;
+    }
+
+  .divider {
+    display: none; /* Hide the divider on smaller screens */
+  }
+
+  .div3 {
+    width: 100%; /* Make divs full width on smaller screens */
+  }
 }
+

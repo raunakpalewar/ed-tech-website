@@ -56,9 +56,6 @@
 
 }
 
-
-
-
 .navbar {
     width: 100%;
     background-color: #333;
@@ -115,3 +112,24 @@
     background-color: #9c27b0;
   }
   
+  @media (max-width: 768px) {
+    .TopBar {
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .authbtn {
+      margin-top: 10px;
+    }
+  
+    .navbar ul {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .navbar ul li {
+      margin-left: 0;
+    }
+  }

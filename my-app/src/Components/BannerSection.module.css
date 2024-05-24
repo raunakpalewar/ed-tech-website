@@ -52,3 +52,10 @@
   height: 62px;
   padding: 0.68px 0;
 }
+
+@media (max-width:800px) {
+  .banner_section{
+    display: none;
+  }
+  
+}

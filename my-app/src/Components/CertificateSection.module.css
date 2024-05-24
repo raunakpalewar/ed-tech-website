@@ -105,3 +105,21 @@
     height: auto; /* Maintain aspect ratio */
     align-self: center; /* Center the image */
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .certificate_section {
+    margin: 20px 20px; /* Adjust margin for smaller screens */
+  }
+
+  .maindiv {
+    flex-direction: column; /* Stack spans vertically on smaller screens */
+    gap: 20px; /* Add space between spans */
+  }
+
+  .span1, .span2 {
+    padding: 20px; /* Adjust padding for smaller screens */
+    border-radius: 20px; /* Adjust border radius for smaller screens */
+  }
+}
