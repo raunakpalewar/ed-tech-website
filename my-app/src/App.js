@@ -6,7 +6,7 @@ import BannerSection from './Components/BannerSection'
 import OfferSection from './Components/OfferSection';
 import CompanySection from './Components/Companies';
 import CertificateSection from './Components/CertificateSection';
-// import InterhshipSection from './Components/InternshipSection';
+import InterhshipSection from './Components/InternshipSection';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <OfferSection />
       <CompanySection />
       <CertificateSection />
-      {/* <InterhshipSection /> */}
+      <InterhshipSection />
     </div>
   );
 }
